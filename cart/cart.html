@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart. Nike Store.</title>
+    <link rel="stylesheet" href="cart.css">
+    <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7084f70fe5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="container nav__top-container">
+            <div class="nav__top-logos">
+                <img src="../assets/jordan.svg" alt="jordan-logo">
+                <img src="../assets/converse.svg" alt="converse-logo">
+            </div>
+            <div class="nav__top-menu">
+                <ul>
+                    <li><a href="/">Find a Store &nbsp; <span>|</span></a></li>
+                    <li class="help"><a href="/landing-page.html">Help &nbsp; <span>|</span></a></li>
+                    <div class="help-menu-wrapper">
+                        <div class="help-menu">
+                                <h3 class="help-menu-title">Help</h3>
+                                <div class="help-menu-links">
+                                    <li><a href="/">Order Status</a></li>
+                                    <li><a href="/">Shipping & Delivery</a></li>
+                                    <li><a href="/">Returns</a></li>
+                                    <li><a href="/">Order Cancellation</a></li>
+                                    <li><a href="/">Size Charts</a></li>
+                                    <li><a href="/">Contact Us</a></li>
+                                    <li><a href="/">Privacy Policy</a></li>
+                                    <li><a href="/">Terms of Sale</a></li>
+                                    <li><a href="/">Terms of Use</a></li>
+                                    <li><a href="/">Send us Feedback</a></li>
+                                </div>
+                            </div>
+                            <div class="help-top-hide"></div>
+                    </div>
+                    <li><a href="/">Join Us &nbsp; <span>|</span></a></li>
+                    <li><a href="/">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container nav__middle-container">
+            <div class="nav__middle-logo">
+                <a href="../landing-page/landing-page.html"><img src="../assets/nike.svg" alt="nike-logo"></a>
+            </div>
+                <div class="nav__middle-categories">
+                    <ul>
+                        <li class="featured"><a href="../nf/nf.html">New & Featured</a></li>
+                        <div class="li-1-expanded">
+                            <div class="li-1-content">
+                                <div class="row-1">
+                                    <div class="section-1">
+                                        <h3 class="section-title">New & Featured</h3>
+                                        <div class="section-content">
+                                            <a href="/">New Styles Added</a>
+                                            <a href="/">SNKRS Launch Calender</a>
+                                            <a href="/">New & Upcoming Drops</a>
+                                            <a href="/">Latest in Fitness</a>
+                                            <a href="/">Member Exclusives</a>
+                                            <a href="/">Back to School Sale: Up to 60% <br> Off </a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">Back to School</h3>
+                                        <div class="section-content">
+                                            <a href="/">Back to School Essentials</a>
+                                            <a href="/">First Day Kicks</a>
+                                            <a href="/">Bags, Backpacks & Lunchboxes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Shop Icon</h3>
+                                        <div class="section-content">
+                                            <a href="/">Air Force</a>
+                                            <a href="/">Air Jordan 1</a>
+                                            <a href="/">Air Max</a>
+                                            <a href="/">Blazer</a>
+                                            <a href="/">Pegasus</a>
+                                            <a href="/">Metcon</a>
+                                            <a href="/">leBron</a>
+                                            <a href="/">Fleece</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-3">
+                                    <div class="section-1">
+                                        <h3 class="section-title">New for Men</h3>
+                                        <div class="section-content">
+                                            <a href="/">Shoes</a>
+                                            <a href="/">Clothing</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">New for Women</h3>
+                                        <div class="section-content">
+                                            <a href="/">Shoes</a>
+                                            <a href="/">Clothing</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-3">
+                                        <h3 class="section-title">New for Kids</h3>
+                                        <div class="section-content">
+                                            <a href="/">Shoes</a>
+                                            <a href="/">Clothing</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-4">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Drops</h3>
+                                        <div class="section-content">
+                                            <a href="/">Aj1</a>
+                                            <a href="/">Dunks</a>
+                                            <a href="/">Get 'Em SNKRS</a>
+                                            <a href="/">Jordan Heat Check</a>
+                                            <a href="/">Complete Your Look</a>
+                                            <a href="/">Latest in Jordan Clothing</a>
+                                            <a href="/">NikeLab</a>
+                                            <a href="/">Drops 101</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="men"><a href="/">Men</a></li>
+                        <div class="li-2-expanded">
+                            <div class="li-2-content">
+                                <div class="row-1">
+                                    <div class="section-1">
+                                        <h3 class="section-title">New & Featured</h3>
+                                        <div class="section-content">
+                                            <a href="/">New Styles Added</a>
+                                            <a href="/">Fresh Jordan Fleece</a>
+                                            <a href="/">Rep Your National Team</a>
+                                            <a href="/">Best Sellers</a>
+                                            <a href="/">Jordan</a>
+                                            <a href="/">New in Nike by You: Nike Dunk</a>
+                                            <a href="/">Back to School Sale: Up to 60% <br> Off </a>
+                                            <a href="/">Sale</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">Back to School</h3>
+                                        <div class="section-content">
+                                            <a href="/">Back to School Essentials</a>
+                                            <a href="/">First Day Kicks</a>
+                                            <a href="/">Bags, Backpacks & Lunchboxes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <div class="section-1">
+                                        <h3 class="section-title">All Shoes</h3>
+                                        <div class="section-content">
+                                            <a href="/">Lifestyle</a>
+                                            <a href="/">Jordan</a>
+                                            <a href="/">Air Max</a>
+                                            <a href="/">Air Force 1</a>
+                                            <a href="/">Dunks & Blazers</a>
+                                            <a href="/">Basketball</a>
+                                            <a href="/">Running</a>
+                                            <a href="/">Soccer</a>
+                                            <a href="/">Golf</a>
+                                            <a href="/">SB</a>
+                                            <a href="/">Training & Gym</a>
+                                            <a href="/">Slides</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-3">
+                                    <div class="section-1">
+                                        <h3 class="section-title">All Clothing</h3>
+                                        <div class="section-content">
+                                            <a href="/">Jordan</a>
+                                            <a href="/">Matching Sets</a>
+                                            <a href="/">Fitness</a>
+                                            <a href="/">Big & Tall</a>
+                                            <a href="/">Tops & T-Shirts</a>
+                                            <a href="/">Hoodies & Sweatshirts</a>
+                                            <a href="/">Jackets & Vests</a>
+                                            <a href="/">Pants & Tights</a>
+                                            <a href="/">Shorts</a>
+                                            <a href="/">Underwear</a>
+                                            <a href="/">Socks</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-4">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Shop by Sport</h3>
+                                        <div class="section-content">
+                                            <a href="/">Golf</a>
+                                            <a href="/">Soccer</a>
+                                            <a href="/">Basketball</a>
+                                            <a href="/">Tennis</a>
+                                            <a href="/">Baseball</a>
+                                            <a href="/">Football</a>
+                                            <a href="/">Running</a>
+                                            <a href="/">Fitness</a>
+                                            <a href="/">Cross Country</a>
+                                            <a href="/">Yoga</a>
+                                            <a href="/">Pickleball</a>
+                                            <a href="/">Swim</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="women"><a href="/">Women</a></li>
+                        <div class="li-3-expanded">
+                            <div class="li-3-content">
+                                <div class="row-1">
+                                    <div class="section-1">
+                                        <h3 class="section-title">New & Featured</h3>
+                                        <div class="section-content">
+                                            <a href="/">New Styles Added</a>
+                                            <a href="/">The New Nike InfinityRN 4</a>
+                                            <a href="/">Rep Your National Team</a>
+                                            <a href="/">Summer Color Shop</a>
+                                            <a href="/">Best Sellers</a>
+                                            <a href="/">Customize Nike by You</a>
+                                            <a href="/">Back to School Sale: Up to 60% <br> Off </a>
+                                            <a href="/">Sale</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">Back to School</h3>
+                                        <div class="section-content">
+                                            <a href="/">Back to School Essentials</a>
+                                            <a href="/">First Day Kicks</a>
+                                            <a href="/">Bags, Backpacks & Lunchboxes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <div class="section-1">
+                                        <h3 class="section-title">All Shoes</h3>
+                                        <div class="section-content">
+                                            <a href="/">Lifestyle</a>
+                                            <a href="/">Jordan</a>
+                                            <a href="/">Air Max</a>
+                                            <a href="/">Air Force 1</a>
+                                            <a href="/">Dunks & Blazers</a>
+                                            <a href="/">Running</a>
+                                            <a href="/">Training & Gym</a>
+                                            <a href="/">Shoes $100 & Under</a>
+                                            <a href="/">Basketball</a>
+                                            <a href="/">Slides & Sandals</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-3">
+                                    <div class="section-1">
+                                        <h3 class="section-title">All Clothing</h3>
+                                        <div class="section-content">
+                                            <a href="/">Jordan</a>
+                                            <a href="/">Plus Size</a>
+                                            <a href="/">Matching Sets</a>
+                                            <a href="/">Bras</a>
+                                            <a href="/">Tops & T-Shirts</a>
+                                            <a href="/">Hoodies & Sweatshirts</a>
+                                            <a href="/">Jackets & Vests</a>
+                                            <a href="/">Leggings</a>
+                                            <a href="/">Skirts & Dresses</a>
+                                            <a href="/">Pants</a>
+                                            <a href="/">Shorts</a>
+                                            <a href="/">Socks</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-4">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Shop by Sport</h3>
+                                        <div class="section-content">
+                                            <a href="/">Yoga</a>
+                                            <a href="/">Running</a>
+                                            <a href="/">Fitness</a>
+                                            <a href="/">Basketball</a>
+                                            <a href="/">Golf</a>
+                                            <a href="/">Soccer</a>
+                                            <a href="/">Tennis</a>
+                                            <a href="/">Softball</a>
+                                            <a href="/">Cross Country</a>
+                                            <a href="/">Swim</a>
+                                            <a href="/">Pickleball</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="kids"><a href="/">Kids</a></li>
+                        <div class="li-4-expanded">
+                            <div class="li-4-content">
+                                <div class="row-1">
+                                    <div class="section-1">
+                                        <h3 class="section-title">New & Featured</h3>
+                                        <div class="section-content">
+                                            <a href="/">New Styles Added</a>
+                                            <a href="/">Shop All</a>
+                                            <a href="/">First Day Kicks</a>
+                                            <a href="/">Bags, Backpacks & Lunchboxes</a>
+                                            <a href="/">Rep Your National Team</a>
+                                            <a href="/">Shades of Green</a>
+                                            <a href="/">Best Sellers</a>
+                                            <a href="/">Jordan</a>
+                                            <a href="/">Tween Collection</a>
+                                            <a href="/">Back to School Sale: Up to 60% <br> Off </a>
+                                            <a href="/">Sale</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Shoes by Size</h3>
+                                        <div class="section-content">
+                                            <a href="/">Big Kids (3.5Y - 7Y)</a>
+                                            <a href="/">Little Kids (10.5C - 3Y)</a>
+                                            <a href="/">Baby & Toddler (1C - 10C)</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">All Shoes</h3>
+                                        <div class="section-content">
+                                            <a href="/">Air Force 1</a>
+                                            <a href="/">Air Max</a>
+                                            <a href="/">Dunks & Blazers</a>
+                                            <a href="/">Jordan</a>
+                                            <a href="/">Lifestyle</a>
+                                            <a href="/">Basketball</a>
+                                            <a href="/">Soccer</a>
+                                            <a href="/">Running</a>
+                                            <a href="/">Shoes $70 & Under</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-3">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Clothing by Size</h3>
+                                        <div class="section-content">
+                                            <a href="/">Big Kids (XS - XL)</a>
+                                            <a href="/">Little Kids (4 - 7)</a>
+                                            <a href="/">Baby & Toddler (0M - 4T)</a>
+                                            <a href="/">Extended Sizing</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">All Clothing</h3>
+                                        <div class="section-content">
+                                            <a href="/">Matching Sets</a>
+                                            <a href="/">Tops & T-Shirts</a>
+                                            <a href="/">Shorts</a>
+                                            <a href="/">Hoodies & Sweatshirts</a>
+                                            <a href="/">Outerwear & Jackets</a>
+                                            <a href="/">Pants & Tights</a>
+                                            <a href="/">Skirts & Dresses</a>
+                                            <a href="/">Bras</a>
+                                            <a href="/">Underwear</a>
+                                            <a href="/">Socks</a>
+                                            <a href="/">Jordan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-4">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Sports & Activity</h3>
+                                        <div class="section-content">
+                                            <a href="/">Basketball</a>
+                                            <a href="/">Soccer</a>
+                                            <a href="/">Baseball</a>
+                                            <a href="/">Softball</a>
+                                            <a href="/">Football</a>
+                                            <a href="/">Running</a>
+                                            <a href="/">Swim</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="accessories"><a href="/">Accessories</a></li>
+                        <div class="li-5-expanded">
+                            <div class="li-5-content">
+                                <div class="row-1">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Featured</h3>
+                                        <div class="section-content">
+                                            <a href="/">Rep Your National Team</a>
+                                            <a href="/">$30 & Under</a>
+                                            <a href="/">Back to School Sale: Up to 60% <br> Off </a>
+                                            <a href="/">Sale</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">Back to School</h3>
+                                        <div class="section-content">
+                                            <a href="/">Back to School Essentials</a>
+                                            <a href="/">Bags, Backpacks & Lunchboxes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <div class="section-1">
+                                        <h3 class="section-title">All Accessories</h3>
+                                        <div class="section-content">
+                                            <a href="/">Jordan</a>
+                                            <a href="/">Lifestyle</a>
+                                            <a href="/">Socks</a>
+                                            <a href="/">Bags & Backpacks</a>
+                                            <a href="/">Hats & Headwear</a>
+                                            <a href="/">Sunglasses & Eyewear</a>
+                                            <a href="/">Water Bottles & Hydration</a>
+                                            <a href="/">Gloves</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-3">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Gear Up by Sport</h3>
+                                        <div class="section-content">
+                                            <a href="/">Basketball</a>
+                                            <a href="/">Golf</a>
+                                            <a href="/">Soccer</a>
+                                            <a href="/">Football</a>
+                                            <a href="/">Baseball</a>
+                                            <a href="/">Track & Field</a>
+                                            <a href="/">Lacrosse</a>
+                                            <a href="/">Softball</a>
+                                            <a href="/">Running</a>
+                                            <a href="/">Swim</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="sale"><a href="/">Sale</a></li>
+                        <div class="li-6-expanded">
+                            <div class="li-6-content">
+                                <div class="row-1">
+                                    <div class="section-1">
+                                        <h3 class="section-title">All Sale</h3>
+                                        <div class="section-content">
+                                            <a href="/">Sale Shoes</a>
+                                            <a href="/">Sale Clothing</a>
+                                            <a href="/">Sale Accessories</a>
+                                        </div>
+                                    </div>
+                                    <div class="section-2">
+                                        <h3 class="section-title">Limited Time</h3>
+                                        <div class="section-content">
+                                            <a href="/">Back to School Sale: Up to 60% <br> Off </a>
+                                            <a href="/">Last Chance Sale</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Men</h3>
+                                        <div class="section-content">
+                                            <a href="/">Shoes</a>
+                                            <a href="/">Clothing</a>
+                                            <a href="/">Accessories</a>
+                                            <a href="/">Shop All</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-3">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Women</h3>
+                                        <div class="section-content">
+                                            <a href="/">Shoes</a>
+                                            <a href="/">Clothing</a>
+                                            <a href="/">Accessories</a>
+                                            <a href="/">Shop All</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-4">
+                                    <div class="section-1">
+                                        <h3 class="section-title">Kids</h3>
+                                        <div class="section-content">
+                                            <a href="/">Shoes</a>
+                                            <a href="/">Clothing</a>
+                                            <a href="/">Accessories</a>
+                                            <a href="/">Shop All</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="nav__middle-right">
+                    <div class="nav__middle-searchbar">
+                        <button id="search-button" class="submit"><i id="search-icon" class="uil uil-search"></i></button>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="nav__middle-icons">
+                        <a id="shopping-cart" href="../cart/cart.html"><i class="fa-solid fa-cart-shopping" style="color: #111111;"></i></a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+    <section class="container cart-container">
+        <div class="cart-left">
+            <div class="cart-members">
+                <div class="cart-members-text">
+                    <h3>Members get free shipping on orders $50+</h3>
+                    <h4>Become a Nike Member for fast free shipping on orders $50+ <span>Join us</span> or <span>Sign-in</span></h4>
+                </div>
+            </div>
+            <div class="fall-sale">
+                <div class="fall-sale-text">
+                    <h4>Extra 20% Off Select Styles | Ends 8.27</h4>
+                    <h5>Sign in and use code READY.</h5>
+                </div>
+                <button class="fall-sale-close" onclick="closeFallSale()"><i class="fa-solid fa-xmark" style="color: #707072;"></i></button>
+            </div>
+            <div class="bag-items">
+                <h4>Bag</h4>
+                <h5>&nbsp; &nbsp; There are no items in your bag.</h5>
+            </div>
+            <div class="cart-favorites">
+                <h4>Favorites</h4>
+                <h5>Want to view your favorites?</h5>
+                <h6><span>Join us</span> or <span>Sign-in</span></h6>
+            </div>
+        </div>
+        <div class="cart-right">
+            <div class="cart-summary">
+                <h4 class="title">Summary</h4>
+                <div class="promo-collapsible">
+                    <h5>Do you have a Promo Code?</h5>
+                    <button onclick="collapsePromo()"><i id="promo-collapsable-icon" class="fa-solid fa-angle-down" style="color: #111111;"></i></button>
+                    <div class="promo-apply">
+                        <input type="text">
+                        <button>Apply</button>
+                    </div>
+                </div>
+                <div class="summary-text">
+                    <div class="subtotal">
+                        <h4>Subtotal</h4>
+                        <div class="question-icon">
+                            <i class="fa-solid fa-circle" style="color: #000000;"></i>
+                            <i class="fa-solid fa-question" style="color: #ffffff;"></i>
+                        </div>
+                        <h5 class="subtotal-price">—</h5>
+                    </div>
+                    <div class="shipping">
+                        <h4>Estimated Shipping & Handling</h4>
+                        <div class="shipping-price">$0.00</div>
+                    </div>
+                    <div class="tax">
+                        <h4>Estimated Tax</h4>
+                        <div class="question-icon">
+                            <i class="fa-solid fa-circle" style="color: #000000;"></i>
+                            <i class="fa-solid fa-question" style="color: #ffffff;"></i>
+                        </div>
+                        <h5 class="tax-price">—</h5>
+                    </div>
+                </div>
+                <div class="summary-line"></div>
+                <div class="summary-total">
+                    <h4>Total</h4>
+                    <h5 class="subtotal-price">—</h5>
+                </div>
+                <div class="summary-line"></div>
+                <div class="checkout-buttons">
+                    <button><a href="/">Checkout</a></button>
+                    <button><a href="/"><span class="pay">Pay</span><span class="pal">Pal</span></a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container similar-container">
+        <h2>You Might Also Like</h2>
+        <div class="swiper-1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-1.png" alt="similar-1"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>"KD16 "NY vs. NY"</h4></a>
+                        <a href="/"><h5>Basketball Shoes</h5></a>
+                        <a href="/"><h6 class="price">$160.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-2.png" alt="similar-2"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Freak 5 "Made in Sepolia"</h4></a>
+                        <a href="/"><h5>Basketball Shoes</h5></a>
+                        <a href="/"><h6 class="price">$130.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-3.png" alt="similar-3"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Freak 5 "Loyalty"</h4></a>
+                        <a href="/"><h5>Basketball Shoes</h5></a>
+                        <a href="/"><h6 class="price">$140.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-4.png" alt="similar-4"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Air Force 1 '07</h4></a>
+                        <a href="/"><h5>Men's Shoes</h5></a>
+                        <a href="/"><h6 class="price">$110.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-5.png" alt="similar-5"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Everyday Plus Cushioned</h4></a>
+                        <a href="/"><h5>Training Crew Socks (6 Pairs)</h5></a>
+                        <a href="/"><h6 class="price">$22.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-6.png" alt="similar-6"></a>
+                    <div class="slide-info">
+                        <div class="slide-info">
+                            <a href="/"><h4>Nike Air Force 1 '07 Fresh</h4></a>
+                            <a href="/"><h5>Men's Shoes</h5></a>
+                            <a href="/"><h6 class="price">$105.97</h6></a>
+                            <a href="/"><h6 class="discount">$140.00</h6></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-7.png" alt="similar-4"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Air Force 1 '07</h4></a>
+                        <a href="/"><h5>Women's Shoes</h5></a>
+                        <a href="/"><h6 class="price">$110.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-12.png" alt="similar-4"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Blazer Mid '77</h4></a>
+                        <a href="/"><h5>Women's Shoes</h5></a>
+                        <a href="/"><h6 class="price">$105.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-8.png" alt="similar-4"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Air Max 270</h4></a>
+                        <a href="/"><h5>Women's Shoes</h5></a>
+                        <a href="/"><h6 class="price">$160.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-9.png" alt="similar-4"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Dunk High</h4></a>
+                        <a href="/"><h5>Women's Shoes</h5></a>
+                        <a href="/"><h6 class="price">$125.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-10.png" alt="similar-4"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Air Force 1 LE</h4></a>
+                        <a href="/"><h5>Big Kids' Shoes</h5></a>
+                        <a href="/"><h6 class="price">$90.00</h6></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/"><img src="../assets/similar/similar-11.png" alt="similar-5"></a>
+                    <div class="slide-info">
+                        <a href="/"><h4>Nike Everyday Cushioned</h4></a>
+                        <a href="/"><h5>Training Crew Socks (6 Pairs)</h5></a>
+                        <a href="/"><h6 class="price">$20.00</h6></a>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- If we need navigation buttons -->
+          </div>
+          
+          <div id="swiper-bar-similar" class="swiper-scrollbar"></div>
+          <div id="button-left-1" class="swiper-button-prev"></div>
+          <div id="button-right-1" class="swiper-button-next"></div>
+    </section>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="cols">
+                <div class="col-1">
+                    <h4>Gift Cards</h4>
+                    <h4>Promotions</h4>
+                    <h4>Find a Store</h4>
+                    <h4>Become a Member</h4>
+                    <h4>Nike Journal</h4>
+                    <h4>Send us Feedback</h4>
+                </div>
+                <div class="col-2">
+                    <h4>Get Help</h4>
+                    <p>Order Status</p>
+                    <p>Shipping & Delivery</p>
+                    <p>Returns</p>
+                    <p>Order Cancellation</p>
+                    <p>Payment Options</p>
+                    <p>Gift Card Balance</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="col-3">
+                    <h4>About Nike</h4>
+                    <p>News</p>
+                    <p>Careers</p>
+                    <p>Investors</p>
+                    <p>Purpose</p>
+                    <p>Sustainability</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-x-twitter" style="color: #111111;"></i>
+                <i class="fa-brands fa-facebook-f" style="color: #111111;"></i>
+                <i class="fa-brands fa-youtube" style="color: #111111;"></i>
+                <i class="fa-brands fa-instagram" style="color: #111111;"></i>
+            </div>
+            <div class="footer-bottom-copyright">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <h5 class="location">United States</h5>
+                <p class="copyright">&copy; 2023 Nike, Inc. All Rights Reserved</p>
+            </div>
+            <div class="policies">
+                <p>Guides</p>
+                <p>Terms of Sale</p>
+                <p>Terms of Use</p>
+                <p>Nike Privacy Policy</p>
+                <div class="privacy-policy">
+                    <img src="../assets/privacy-choices.png" alt="privacy-choices">
+                    <p>Your Privacy Choices</p>
+                </div>
+            </div>
+            <div class="supply-chain">
+                <p>CA Supply Chains Act</p>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-cover"></div>
+    <script>
+        const swiper1 = new Swiper('.swiper-1', {
+        // Navigation arrows
+        navigation: {
+            nextEl: '#button-right-1',
+            prevEl: '#button-left-1',
+        },
+        scrollbar: {
+            el: '#swiper-bar-similar',
+            draggable: true,
+        },
+        slidesPerView: 3,
+        });
+      </script>
+</body>
+</html>
